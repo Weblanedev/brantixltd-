@@ -139,9 +139,12 @@ export interface SocialsType {
 // socials-data type
 export interface ContactType {
   name: string;
-  phone: string[];
-  email: string[];
-  address: string[];
+  full_name: string;
+  slogan: string;
+  description: string;
+  phone: string;
+  email: string;
+  address: string;
   googleMapUrl: string;
 }
 
